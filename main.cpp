@@ -3,11 +3,9 @@
 
 int main()
 {
-	srand(time(nullptr));
-
 	Dominoes dom;
 
-	dom.enterN();
+	dom.dealDominoes();
 
 
 	return 0;

@@ -6,12 +6,22 @@
 
 class Dominoes
 {
-	unsigned __int64 n = -1;
-	std::vector<std::vector<bool>> dominoes{n + 1, std::vector<bool>(n + 1, false) };
-	std::pair<int, int> table = createRandTile();
+	int n = 0;
+	std::vector<std::vector<bool>> dominoes;
+	std::pair<int, int> table;
 	int sharedPart = -1;
+
+	std::mt19937 gen{ std::random_device{}() };
 	
 public:	
+
+	Dominoes()
+	{
+		enterN();
+		dominoes.assign	(n, std::vector<bool>(n, false));
+		table = createRandTile();
+		std::uniform_int_distribution<> distrib(0, n);
+	}
 
 	void enterN()
 	{
@@ -61,7 +71,8 @@ public:
 
 	std::pair<int, int> createRandTile()
 	{
-		return { rand() % n, rand() % n };
+		std::uniform_int_distribution<> dist(0, n - 1);
+		return { dist(gen), dist(gen) };
 	}
 
 	std::pair<int, int> operator() () {
@@ -90,7 +101,7 @@ public:
 		}
 	}
 
-	std::string show_pair(std::pair<int,int> a)
+	void show_pair(std::pair<int,int> a)
 	{
 		std::cout << a.first << " " << a.second << std::endl;
 	}
