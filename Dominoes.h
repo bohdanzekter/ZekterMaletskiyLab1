@@ -20,6 +20,7 @@ public:
 		enterN();
 		dominoes.assign	(n, std::vector<bool>(n, false));
 		table = createRandTile();
+		insert(table);
 		std::uniform_int_distribution<> distrib(0, n);
 	}
 
@@ -80,7 +81,7 @@ public:
 		while (true)
 		{
 			newTile = createRandTile();
-			if (!dominoes[newTile.first][newTile.second] and !sharesPart(table, newTile))
+			if (dominoes[newTile.first][newTile.second] or !sharesPart(table, newTile))
 				continue;
 			else
 			{
