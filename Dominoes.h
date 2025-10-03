@@ -109,18 +109,10 @@ public:
 		return (end1 < end2) ? std::make_pair(tile.first, tile.second) : std::make_pair(tile.second, tile.first);
 	}
 
-	void dealDominoes()
-	{
-		for (size_t i = 0; i < n; i++)
-		{
-			operator()();
-			show_pair(table);					
-		}
-	}
-
 	int dealDominoes()
 	{
 		int count = 1;
+		show_pair(table);
 		while (true)
 		{
 			auto tile = operator()();
@@ -135,6 +127,13 @@ public:
 	void show_pair(std::pair<int,int> a)
 	{
 		std::cout << a.first << " " << a.second << std::endl;
+	}
+
+	void reset() 
+	{
+		dominoes.assign(n, std::vector<bool>(n, false));
+		table = createRandTile();
+		insert(table);
 	}
 
 	bool sharesPart(std::pair<int, int> a, std::pair<int, int> b) {

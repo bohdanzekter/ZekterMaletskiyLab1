@@ -5,8 +5,8 @@ int main()
 {
 	Dominoes dom;
 
-	dom.dealDominoes();
-
+	int size = dom.dealDominoes();
+	dom.show_matrix();
 
 	return 0;
 }

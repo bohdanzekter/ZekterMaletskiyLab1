@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Lab1Year2.vcxproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1Year2.vcxproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.h||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dominoes.h||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dominoes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,41 +50,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lab1Year2.vcxproj.user",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Lab1Year2.vcxproj.user",
-              "RelativeDocumentMoniker": "Lab1Year2.vcxproj.user",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Lab1Year2.vcxproj.user",
-              "RelativeToolTip": "Lab1Year2.vcxproj.user",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-10-03T16:25:28.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dominoes.h",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.h",
-              "RelativeDocumentMoniker": "Dominoes.h",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.h",
-              "RelativeToolTip": "Dominoes.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-03T16:25:27.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\main.cpp",
               "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-03T17:36:11.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dominoes.cpp",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.cpp",
+              "RelativeDocumentMoniker": "Dominoes.cpp",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.cpp",
+              "RelativeToolTip": "Dominoes.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-03T16:25:24.295Z",
+              "WhenOpened": "2025-10-03T17:33:09.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dominoes.h",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.h",
+              "RelativeDocumentMoniker": "Dominoes.h",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.h",
+              "RelativeToolTip": "Dominoes.h",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAIwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-03T16:31:36.973Z",
               "EditorCaption": ""
             }
           ]
