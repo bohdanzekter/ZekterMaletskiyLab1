@@ -118,6 +118,20 @@ public:
 		}
 	}
 
+	int dealDominoes()
+	{
+		int count = 1;
+		while (true)
+		{
+			auto tile = operator()();
+			if (tile.first == -1 && tile.second == -1)
+				break;
+			show_pair(tile);
+			count++;
+		}
+		return count;
+	}
+
 	void show_pair(std::pair<int,int> a)
 	{
 		std::cout << a.first << " " << a.second << std::endl;
