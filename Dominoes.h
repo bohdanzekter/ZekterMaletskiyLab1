@@ -98,6 +98,17 @@ public:
     return {-1, -1};
 }
 
+	bool canAttachBothEnds(const std::pair<int, int>& tile) const {
+		return (tile.first == table.first || tile.second == table.first) ||
+			(tile.first == table.second || tile.second == table.second);
+	}
+
+	std::pair<int, int> chooseSmallestEnd(const std::pair<int, int>& tile) const {
+		int end1 = (tile.first == table.first || tile.second == table.first) ? table.first : table.second;
+		int end2 = (tile.first == table.second || tile.second == table.second) ? table.second : table.first;
+		return (end1 < end2) ? std::make_pair(tile.first, tile.second) : std::make_pair(tile.second, tile.first);
+	}
+
 	void dealDominoes()
 	{
 		for (size_t i = 0; i < n; i++)
