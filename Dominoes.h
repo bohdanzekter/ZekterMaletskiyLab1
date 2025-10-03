@@ -21,7 +21,6 @@ public:
 		dominoes.assign	(n, std::vector<bool>(n, false));
 		table = createRandTile();
 		insert(table);
-		std::uniform_int_distribution<> distrib(0, n);
 	}
 
 	void enterN()
@@ -73,7 +72,10 @@ public:
 	std::pair<int, int> createRandTile()
 	{
 		std::uniform_int_distribution<> dist(0, n - 1);
-		return { dist(gen), dist(gen) };
+		int a = dist(gen);
+		int b = dist(gen);
+		if (a > b) std::swap(a, b);
+		return { a, b };
 	}
 
 	std::pair<int, int> operator() () {
