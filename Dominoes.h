@@ -44,7 +44,7 @@ public:
 		}
 	}
 
-	void insert(int first, int second)				// word pair fucking disappeared
+	void insert(int first, int second)				
 	{
 		dominoes[first][second] = true;
 		dominoes[second][first] = true;
@@ -77,21 +77,24 @@ public:
 	}
 
 	std::pair<int, int> operator() () {
-		std::pair <int, int> newTile;
-		while (true)
-		{
-			newTile = createRandTile();
-			if (dominoes[newTile.first][newTile.second] or !sharesPart(table, newTile))
-				continue;
-			else
-			{
-				this->insert(newTile.first, newTile.second);
-				changeTable(newTile);
-				break;
-			}
-		}
-		return { newTile.first, newTile.second };
-	}
+    std::pair<int, int> newTile;
+    int attempts = 0;
+    int maxAttempts = n * n;
+    
+    while (attempts < maxAttempts) {
+        newTile = createRandTile();
+        if (!dominoes[newTile.first][newTile.second] && sharesPart(table, newTile)) {
+            if (canAttachBothEnds(newTile)) {
+                newTile = chooseSmallestEnd(newTile);
+            }
+            this->insert(newTile);
+            changeTable(newTile);
+            return newTile;
+        }
+        attempts++;
+    }
+    return {-1, -1};
+}
 
 	void dealDominoes()
 	{
@@ -107,12 +110,16 @@ public:
 		std::cout << a.first << " " << a.second << std::endl;
 	}
 
-	bool sharesPart(const std::pair<int, int>& a, const std::pair<int, int>& b) {
-		return (a.first == b.first) or
-			(a.first == b.second) or
-			(a.second == b.first) or
-			(a.second == b.second);
-	}
+	bool sharesPart(std::pair<int, int> a, std::pair<int, int> b) {
+    if (a.first > a.second) std::swap(a.first, a.second);
+    if (b.first > b.second) std::swap(b.first, b.second);
+
+    return (a.first == b.first) || 
+           (a.first == b.second) || 
+           (a.second == b.first) || 
+           (a.second == b.second);
+}
+
 
 	void changeTable(const std::pair<int, int>& a)
 	{
