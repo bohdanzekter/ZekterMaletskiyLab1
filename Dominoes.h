@@ -15,20 +15,12 @@ class Dominoes
 	
 public:	
 
-	Dominoes()
+	Dominoes(int maxNumber)
 	{
-		enterN();
+		n = maxNumber + 1;		//to include number 'n' itself
 		dominoes.assign	(n, std::vector<bool>(n, false));
 		table = createRandTile();
 		insert(table);
-	}
-
-	void enterN()
-	{
-		std::cout << "Enter n: ";
-		std::cin >> n;
-		n++;							//to include number 'n' itself
-		std::cout << std::endl;
 	}
 
 	void show_matrix()
