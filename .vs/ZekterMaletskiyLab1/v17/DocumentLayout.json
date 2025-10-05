@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\",
+  "WorkspaceRootPath": "C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\Dominoes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dominoes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.h||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\Dominoes.h||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dominoes.h||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,37 +42,49 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dominoes.cpp",
+              "DocumentMoniker": "C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\Dominoes.cpp",
+              "RelativeDocumentMoniker": "Dominoes.cpp",
+              "ToolTip": "C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\Dominoes.cpp",
+              "RelativeToolTip": "Dominoes.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-05T10:52:42.385Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Dominoes.h",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.h",
+              "DocumentMoniker": "C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\Dominoes.h",
               "RelativeDocumentMoniker": "Dominoes.h",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\Dominoes.h",
+              "ToolTip": "C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\Dominoes.h",
               "RelativeToolTip": "Dominoes.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-03T16:31:36.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ZekterMaletskiyLab1\\main.cpp",
+              "ToolTip": "C:\\Users\\my\\Desktop\\\u0430\u0431\u0430\u0456\\\u041E\u041E\u041F\\ZekterMaletskiyLab1\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwDEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-03T17:36:11.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T17:36:11.097Z"
             }
           ]
         }

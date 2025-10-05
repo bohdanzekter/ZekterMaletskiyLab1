@@ -5,16 +5,29 @@
 
 int main()
 {
-	int n, numDraws;
-	std::cout << "Enter max number on dominoes: ";
-	std::cin >> n;
-	std::cout << "Enter number of draws: ";
-	std::cin >> numDraws;
+	int n, numDeals;
 
-	std::vector<int> sizes(numDraws);
+	std::cout << "Enter max number on dominoes( >= 0 ): ";
+	while (!(std::cin >> n) || n < 0) {
+		std::cout << "Invalid input (number must be greater than or equal to 0), try again: ";
+		std::cin.clear();
+		std::cin.ignore(1000, '\n');
+	}
+
+	std::cout << "Enter number of deals( > 0 ): ";
+	while (!(std::cin >> numDeals) || numDeals <= 0) {
+		std::cout << "Invalid input (number must be greater than 0), try again: ";
+		std::cin.clear();
+		std::cin.ignore(1000, '\n');
+	}
+		
+	std::cout << "Max number on dominoes: " << n << "\nAmount of draws: " << numDeals;
+
+
+	std::vector<int> sizes(numDeals);
 	Dominoes dom(n);
 
-	for (int i = 0; i < numDraws; ++i) {
+	for (int i = 0; i < numDeals; ++i) {
 		dom.reset();
 		sizes[i] = dom.dealDominoes();
 	}
@@ -26,14 +39,14 @@ int main()
 	std::cout << std::endl;
 
 	std::sort(sizes.begin(), sizes.end());
-	double average = static_cast<double>(std::accumulate(sizes.begin(), sizes.end(), 0)) / numDraws;
+	double average = static_cast<double>(std::accumulate(sizes.begin(), sizes.end(), 0)) / numDeals;
 	double median;
 
-	if (numDraws % 2 == 0) {
-		median = (sizes[numDraws / 2 - 1] + sizes[numDraws / 2]) / 2.0;
+	if (numDeals % 2 == 0) {
+		median = (sizes[numDeals / 2 - 1] + sizes[numDeals / 2]) / 2.0;
 	}
 	else {
-		median = sizes[numDraws / 2];
+		median = sizes[numDeals / 2];
 	}
 
 	std::map<int, int> frequency;
@@ -56,7 +69,7 @@ int main()
 	std::cout << "Percentages:" << std::endl;
 	for (auto& [size, count] : frequency) 
 	{
-		double percent = 100.0 * count / numDraws;
+		double percent = 100.0 * count / numDeals;
 		std::cout << size << ": " << percent << "%" << std::endl;
 	}
 
